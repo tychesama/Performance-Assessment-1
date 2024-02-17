@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty of Japan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Background Video -->
+    <div class="background">
+      <video class = "background-video" autoplay loop muted>
+        <source src = "backjp.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Navbar -->
+    <header id="navbar" class="header">
+      <div class="header-left" onclick="openInNewWindow('https://blog.sendle.com/hubfs/content/images/photos/effective-about-us-page/1200x900-effective-aboutus-page-image1@2x.jpg');">
+        ABOUT
+      </div>
+        <div class="header-center" onclick="openInNewWindow('https://en.wikipedia.org/wiki/Japan');">
+          日本
+        </div>
+      <div class="header-right" onclick="openInNewWindow('https://repository-images.githubusercontent.com/688957850/76a0e5d1-16c6-469c-8970-8d433228a5f5');">
+        LOGIN
+      </div>
+    </header>
+    
+    <div class="main-container">
+
+      <!-- Logo Main -->
+      <div class="logo-container">
+        <div class="logo">
+          <span>JAPAN</span>
+        </div>
+        <div class="bottom-logo">
+          <span>BEAUTY OF THE WORLD</span>
+        </div>
+      </div>
+
+      <!-- need to make grid huhu -->
+      <div class = "self-promo">
+        <div class="promo-item1">PRESENTED BY: JOEM</div>
+        <div class="promo-item2"> Website for App Dev</div>
+        <div class="promo-item3">
+          <span style="margin-top:-7px">SOCIALS: </span>
+          <div class = "fb-button" onclick="openInNewWindow('https://fb.com');"><img src="fb.png"></div>
+          <div class = "twt-button" onclick="openInNewWindow('https://twitter.com');"><img src="twt.png"></div>
+          <div class = "ig-button" onclick="openInNewWindow('https://instagram.com');"><img src="ig.png"></div>
+        </div>
+      </div>
+      <!-- Some weird separator here -->
+
+      <div class="spacer">
+      </div>
+      
+      <!-- Introduction -->
+      <div id= "introduction" class="introduction-container hidden popEffect">
+        <div class = "text-container">
+          <span class="title-content">Introduction to Japan</span>
+          <span class="line-break"></span>
+          <p>
+            Something that surprises most people when they first arrive to Japan is how polite people are. Japanese people tend to be always really nice even if they’re not having the best day. Always helping people when they are in need, like giving directions, and sometimes even taking the person to the place they want to go to when they might have a prior engagement. People always follow the rules and maintain order anywhere they go. Keeping the city very safe and clean 99% of the time. It’s something that you definitely don’t see everywhere you go, making Japan even more unique in that sense. Sometimes, it might even be a bit difficult to follow as a foreigner since there are a lot of unspoken rules that Japanese follow each day. However, they are always very understanding and will help you out if you are ever in need of help.
+            Most of the famous temples in Japan are far more than just one building. Usually, there’s an inner temple, which will have a designated area for worship and may not be open to the public. Along with the inner temple, most temple complexes include several buildings, gates flanked by protective statues, beautiful gardens, and pagodas and ponds. You could easily spend a few hours exploring some of the country’s largest temples, like those around Nara (near Osaka) or Kyoto’s Todai-ji. 
+          </p>
+        </div>
+      </div>
+
+      <!-- First Info -->
+      <div id ="ArashiyamaForest" class="info hidden popEffect">
+        <div class = "text-container">
+          <span class = "title-content">Arashiyama Forest</span>
+          <span class="line-break"></span>
+          <p>
+            If you’ve been planning a trip to Kyoto, you’ve probably seen pictures of the Arashiyama Bamboo Forest – along with the torii tunnels of Fushimi-Inari-Taisha Shrine and Kinkaku-ji Temple, it’s one of the most photographed sights in the city. But no picture can capture the feeling of standing in the midst of this sprawling bamboo grove – the whole thing has a palpable sense of otherness that is quite unlike that of any normal forest we know of.
+          </p>
+        </div>
+        <div class = "image-container-right">
+          <video class = "info-video" controls loop autoplay muted>
+            <source src="asakura.mkv" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      
+      <!-- Second Info -->
+      <div id ="FushimiShrine" class="info hidden popEffect">
+        <div class = "image-container-left">
+          <video class = "info-video" controls autoplay loop muted>
+            <source src="inari shrine.mkv" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class = "text-container">
+          <span class = "title-content">Fushimi Inari Shrine</span>
+          <span class="line-break"></span>
+          <p>
+            Fushimi Inari Shrine (伏見稲荷大社, Fushimi Inari Taisha) is an important Shinto shrine in southern Kyoto. It is famous for its thousands of vermilion torii gates, which straddle a network of trails behind its main buildings. The trails lead into the wooded forest of the sacred Mount Inari, which stands at 233 meters and belongs to the shrine grounds.
+            Fushimi Inari is the most important of several thousands of shrines dedicated to Inari, the Shinto god of rice. Foxes are thought to be Inari's messengers, resulting in many fox statues across the shrine grounds. Fushimi Inari Shrine has ancient origins, predating the capital's move to Kyoto in 794.
+          </p>
+        </div>
+      </div>
+
+      <!-- Third Info -->
+      <div id = "MountFuji" class="info hidden popEffect">
+        <div class = "text-container">
+          <span class = "title-content">Mount Fuji</span>
+          <span class="line-break"></span>
+          <p>
+            Mount Fuji (富士山, Fujisan) is with 3776 meters Japan's highest mountain. It is not surprising that the nearly perfectly shaped volcano has been worshiped as a sacred mountain and experienced big popularity among artists and common people throughout the centuries.
+            Mount Fuji is an active volcano, which most recently erupted in 1707. It stands on the border between Yamanashi and Shizuoka prefectures and can be seen from Tokyo and Yokohama on clear days.
+          </p>
+        </div>
+        <div class = "image-container-right">
+          <video class = "info-video" controls loop autoplay muted>
+            <source src="fuji.mkv" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Fourth Info -->
+      <div id ="HimejiCastle" class="info hidden popEffect">
+        <div class = "image-container-left">
+          <video class = "info-video" controls loop autoplay muted>
+            <source src="himeji castle.mkv" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class = "text-container">
+          <span class = "title-content">Himeji Castle</span>
+          <span class="line-break"></span>
+          <p>
+            Himeji Castle (姫路城, Himejijō), also known as White Heron Castle (Shirasagijo) due to its elegant, white appearance, is widely considered Japan's most spectacular castle for its imposing size and beauty and its well preserved, complex castle grounds. The castle is both a national treasure and a world heritage site. Unlike many other Japanese castles, it was never destroyed by war, earthquake or fire and survives to this day as one of the country's twelve original castles.
+          </p>
+        </div>
+      </div>
+
+      <!-- Fifth Info -->
+      <div id ="Ibaraki" class="info hidden popEffect">
+        <div class = "text-container">
+          <span class = "title-content">Ibaraki</span>
+          <span class="line-break"></span>
+          <p>
+            Easily accessible from Tokyo by the Tsukuba Express, Ibaraki Prefecture (茨城県, Ibaraki-ken) is known historically for being the home of the Mito branch of the Tokugawa clan during the Edo Period, including the famous daimyo Tokugawa Mitsukuni, or “Mito Komon,” the subject of a popular long-running TV series in Japan.
+            Two of the most popular tourist destinations in Ibaraki include the majestic Fukuroda Falls (which can spectacularly freeze over in the winter), as well as Kairaku-en, one of the Three Great Gardens of Japan.
+            Other places of note include the beaches on the coast, Hitachi Seaside Park and its pretty flower fields, and the Kashima Jingu shrine.
+          </p>
+        </div>
+        <div class = "image-container-right">
+          <video class = "info-video" controls loop autoplay muted>
+            <source src="ibaraki.mkv" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Sixth Info -->
+      <div id ="Tokyo" class="info hidden popEffect">
+        <div class = "image-container-left">
+          <video class = "info-video" controls loop autoplay muted>
+            <source src="tokyo.mkv" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class = "text-container">
+          <span class = "title-content">Tokyo</span>
+          <span class="line-break"></span>
+          <p>
+            Tokyo (東京, Tōkyō) is Japan's capital and the world's most populous metropolis. It is also one of Japan's 47 prefectures, consisting of 23 central city wards and multiple cities, towns and villages west of the city center. The Izu and Ogasawara Islands are also part of Tokyo.
+            Prior to 1868, Tokyo was known as Edo. Previously a small castle town, Edo became Japan's political center in 1603 when Tokugawa Ieyasu established his feudal government there. A few decades later, Edo had grown into one of the world's largest cities. With the Meiji Restoration of 1868, the emperor and capital moved from Kyoto to Edo, which was renamed Tokyo ("Eastern Capital"). Large parts of Tokyo were destroyed in the Great Kanto Earthquake of 1923 and the air raids of 1945.
+            </p>
+        </div>
+      </div>
+
+      <!-- Seventh Info -->
+      <div id ="Akihabara" class="info hidden popEffect">
+        <div class = "text-container">
+          <span class = "title-content">Akihabara</span>
+          <span class="line-break"></span>
+          <p>
+            Akihabara (秋葉原), also called Akiba after a former local shrine, is a district in central Tokyo that is famous for its many electronics shops and has also gained recognition as the center of Japan's otaku (diehard fan) culture. Many shops and establishments devoted to anime and manga are dispersed among the electronic stores in the district. On Sundays, Chuo Dori, the main street through the district, is closed to car traffic from 13:00 to 18:00 (until 17:00 from October through March).
+            Akihabara has seen some redevelopment over the past years, which added some large, modern buildings to the mix of small to medium-sized shops and buildings. Most prominent among them is a huge Yodobashi electronics store just next to the station.
+            Hundreds of electronics shops, ranging from tiny one-man stalls specializing in a particular electronic component to large electronics retailers, line the main Chuo Dori street and the crowded side streets around Akihabara. They offer everything from the newest computers, cameras, televisions, mobile phones, electronics parts and home appliances to second-hand goods and electronic junk.
+            </p>
+        </div>
+        <div class = "image-container-right">
+          <video class = "info-video" controls loop autoplay muted>
+            <source src="akihabara.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
+      <!-- Eight Info -->
+      <div id ="SensojiTemple" class="info hidden popEffect">
+        <div class = "image-container-left">
+          <video class = "info-video" controls loop autoplay muted>
+            <source src="senoji.mkv" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class = "text-container">
+          <span class = "title-content">Sensoji Temple</span>
+          <span class="line-break"></span>
+          <p>
+            Sensoji (浅草寺, Sensōji, also known as Asakusa Kannon Temple) is a Buddhist temple located in Asakusa. It is one of Tokyo's most colorful and popular temples.
+            The legend says that in the year 628, two brothers fished a statue of Kannon, the goddess of mercy, out of the Sumida River, and even though they put the statue back into the river, it always returned to them. Consequently, Sensoji was built nearby for the goddess of Kannon. The temple was completed in 645, making it Tokyo's oldest temple.
+            When approaching the temple, visitors first enter through the Kaminarimon (Thunder Gate), the outer gate of Sensoji Temple and the symbol of Asakusa and the entire city of Tokyo.
+            A shopping street of over 200 meters, called Nakamise, leads from the outer gate to the temple's second gate, the Hozomon. Alongside typical Japanese souvenirs such as yukata and folding fans, various traditional local snacks from the Asakusa area are sold along the Nakamise. The shopping street has a history of several centuries.
+          </p>
+        </div>
+      </div>
+
+      <div class="references">
+        <span class = "title-content">References</span>
+        <div class="line-break"></div>
+        <table class="table">
+          <tr>
+            <th>Title</th>
+            <th>Link</th>
+            <th>Type</th>
+          </tr>
+          <tr>
+            <td>Japan in 8K ULTRA HD - Land of The Rising Sun (60 FPS)</td>
+            <td><a href="https://www.youtube.com/watch?v=G5RpJwCJDqc&t=2s&pp=ygUZamFwYW5lc2Ugc3R1bm5pbmcgdmlzdWFscw%3D%3D">www.youtube.com</a>
+            </td>
+            <td>Video</td>
+          </tr>
+          <tr>
+            <td>Gorgeous Photos of Japan</td>
+            <td><a href="https://www.roughguides.com/articles/gorgeous-photos-of-japan/#arashiyama-bamboo-forest">www.roughguides.com</a></td>
+            <td>Article</td>
+          </tr>
+          <tr>
+            <td>The Beauty of Mt. Fuji【4K】富士山</td>
+            <td><a href="https://www.youtube.com/watch?v=fXJ8EB1WoF4">www.youtube.com</a></td>
+            <td>Video</td>
+          </tr>
+          <tr>
+            <td>Kyoto, Japan - 21:9 Ultrawide 4K HDR - Arashiyama Bamboo Forest - C...</td>
+            <td><a href="https://www.youtube.com/watch?v=JpEjSABgaYo">www.youtube.com</a></td>
+            <td>Video</td>
+          </tr>
+          <tr>
+            <td>DJI – Himeji Castle</td>
+            <td><a href="https://www.youtube.com/watch?v=fey7a_YOzm8&pp=ygUVaGltZWppIGNhc3RsZSB2aXN1YWxz ">www.youtube.com</a></td>
+            <td>Video</td>
+          </tr>
+          <tr>
+            <td>【4K HDR】Rainy Walk in Kyoto Fushimi Inari Shrine (京都散歩) - Summer 20...</td>
+            <td><a href="https://www.youtube.com/watch?v=Xf7nLAnXxno&pp=ygUcZnVzaGltaSBpbmFyaSBzaHJpbmUgdmlzdWFscw%3D%3D">www.youtube.com</a></td>
+            <td>Video</td>
+          </tr>
+          <tr>
+            <td>Ibaraki: Ever-Changing Beauty [4K Japan Cinematic]</td>
+            <td><a href="https://www.youtube.com/watch?v=VqX7q8MX9sM&pp=ygUVVG9laSBFaWdhbXVyYSB2aXN1YWxz">www.youtube.com</a></td>
+            <td>Video</td>
+          </tr>
+          <tr>
+            <td>Sensoji Temple [Asakusa] - #TOKYO [Japan]</td>
+            <td><a href="https://www.youtube.com/results?search_query=Sensō-ji+temple+visuals">www.youtube.com</a></td>
+            <td>Video</td>
+          </tr>
+          <tr>
+            <td>japan-guide</td>
+            <td><a href="https://www.japan-guide.com">www.japan-guide.com</a></td>
+            <td>Article</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <p><a href="https://t4.ftcdn.net/jpg/03/03/62/45/360_F_303624505_u0bFT1Rnoj8CMUSs8wMCwoKlnWlh5Jiq.jpg">Privacy Policy</a> | <a href="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png">Terms of Service</a></p>
+        <p>Contact: info@yourwebsite.com</p>
+      </div>
+    </div>
+    
+  </body>
+</html>
